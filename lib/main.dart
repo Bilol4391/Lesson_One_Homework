@@ -413,8 +413,6 @@
 //   }
 // }
 
-
-
 /// Masala - 4
 
 // import 'package:flutter/material.dart';
@@ -519,3 +517,91 @@
 //     );
 //   }
 // }
+
+/// Masala - 5
+
+import 'package:flutter/material.dart';
+// import 'package:flutter/rendering.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Container(
+        color: Colors.black12,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.teal,
+                ),
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.cyanAccent,
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.yellow,
+                ),
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.red,
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.redAccent,
+                ),
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.yellow,
+                ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.deepPurple,
+                ),
+                Container(
+                  height: 220,
+                  width: 215,
+                  color: Colors.brown,
+                ),
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
