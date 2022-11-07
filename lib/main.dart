@@ -412,3 +412,110 @@
 //     );
 //   }
 // }
+
+
+
+/// Masala - 4
+
+// import 'package:flutter/material.dart';
+// import 'package:flutter/rendering.dart';
+//
+// void main() {
+//   runApp(const MyApp());
+// }
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   // This widget is the root of your application.
+//   @override
+//   Widget build(BuildContext context) {
+//     return MaterialApp(
+//       home: Container(
+//         color: Colors.black12,
+//         child: Center(
+//           child: Column(
+//             mainAxisAlignment: MainAxisAlignment.center,
+//             children: [
+//               Container(
+//                 height: 100,
+//                 width: 350,
+//                 decoration: const BoxDecoration(
+//                     color: Colors.deepOrange,
+//                     borderRadius: BorderRadius.only(
+//                         topLeft: Radius.circular(16),
+//                         topRight: Radius.circular(16))),
+//                 child: Center(
+//                   child: Text(
+//                     "B",
+//                     textAlign: TextAlign.center,
+//                     style: TextStyle(
+//                         decoration: TextDecoration.none, color: Colors.white),
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 height: 100,
+//                 width: 350,
+//                 color: Colors.blueGrey,
+//                 child: Center(
+//                   child: Text(
+//                     "I",
+//                     textAlign: TextAlign.center,
+//                     style: TextStyle(
+//                         decoration: TextDecoration.none, color: Colors.white),
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 height: 100,
+//                 width: 350,
+//                 color: Colors.cyanAccent,
+//                 child: Center(
+//                   child: Text(
+//                     "L",
+//                     textAlign: TextAlign.center,
+//                     style: TextStyle(
+//                         decoration: TextDecoration.none, color: Colors.white),
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 height: 100,
+//                 width: 350,
+//                 color: Colors.white70,
+//                 child: Center(
+//                   child: Text(
+//                     "O",
+//                     textAlign: TextAlign.center,
+//                     style: TextStyle(
+//                         decoration: TextDecoration.none, color: Colors.white),
+//                   ),
+//                 ),
+//               ),
+//               Container(
+//                 height: 100,
+//                 width: 350,
+//                 decoration: const BoxDecoration(
+//                     color: Colors.purple,
+//                     borderRadius: BorderRadius.only(
+//                     bottomLeft: Radius.circular(16),
+//                     bottomRight: Radius.circular(16),
+//                   )
+//                 ),
+//                 child: Center(
+//                   child: Text(
+//                     "L",
+//                     textAlign: TextAlign.center,
+//                     style: TextStyle(
+//                         decoration: TextDecoration.none, color: Colors.white),
+//                   ),
+//                 ),
+//               )
+//             ],
+//           ),
+//         ),
+//       ),
+//     );
+//   }
+// }
