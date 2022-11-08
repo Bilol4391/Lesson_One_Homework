@@ -164,7 +164,7 @@ class TaskOne extends StatelessWidget {
                     style: TextStyle(
                         decoration: TextDecoration.none,
                         color: Colors.white,
-                        fontSize: 20),
+                        fontSize: 19),
                   ),
                 ),
               ),
