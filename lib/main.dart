@@ -5,6 +5,7 @@ import 'package:myapp/Lesson_Two_Task_One.dart';
 import 'package:myapp/Lesson_Two_Task_Six.dart';
 import 'package:myapp/Lesson_Two_Task_Three.dart';
 import 'package:myapp/Lesson_Two_Task_Two.dart';
+import 'package:myapp/Practice.dart';
 
 
 void main() {
